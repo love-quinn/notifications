@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notificações</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        lucide.createIcons();
+      });
+    </script>
+    <script src="./main.js"></script>
+  </head>
+  <body>
+    <div class="h-screen w-screen flex items-center justify-center">
+      <button
+        class="bg-black flex items-center text-lg flex gap-2 text-white hover:bg-neutral-800 rounded-md p-3 active:scale-90 transition-transform"
+      >
+        Notificar
+        <i data-lucide="bell-ring"></i>
+      </button>
+    </div>
+  </body>
+</html>
